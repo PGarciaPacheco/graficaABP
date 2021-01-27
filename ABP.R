@@ -24,5 +24,5 @@ g <- barplot(t(as.matrix(as.numeric(dat5[, 2]))),
              cex.axis = 0.8,
              cex.names = 0.8)
 
-text(g, dat5$Casos.per.milió+1.4, paste(round(dat5$Casos.per.milió, digits = 0)), cex=0.7)
+text(g, dat5$Casos.per.milió+1.4, paste(round(dat5$Casos.per.milió, digits = 0)), srt=90, cex=0.7)
 
