@@ -14,13 +14,15 @@ par(mar=c(6,3,3,1))
 
 g <- barplot(t(as.matrix(as.numeric(dat5[, 2]))),
              beside = TRUE,
-             names.arg = dat2$País,
+             names.arg = dat2$Pais,
              density = NULL,
              col = c("lightblue","purple"),
-             ylim = c(0,60),
-             main = "Casos de xarampió a Europa 2020",
+             ylim = c(0,63),
+             main = "Casos per milió de xarampió a Europa 2020",
              las = 2,
+             cex.main = 1,
              cex.axis = 0.8,
              cex.names = 0.8)
 
-text(g, dat5$Casos.per.milió+1.5, paste(round(dat5$Casos.per.milió, digits = 0)) ,cex=0.7)
+text(g, dat5$Casos.per.milió+1.4, paste(round(dat5$Casos.per.milió, digits = 0)), cex=0.7)
+
