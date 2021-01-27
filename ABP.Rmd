@@ -1,0 +1,18 @@
+---
+title: "Codi R"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introducció
+
+Amb l'objectiu d'assegurar la reproductivitat de la gràfica mostrada al informe sobre els casos per milió de Xarampió a nivell europeu, a continuació tenim el codi R utilitzat. 
+
+```{r}
+
+```
+
+
