@@ -1,2 +1,2 @@
-# graficaABP
+# Gràfic ABP1
 Amb l'objectiu d'assegurar la reproductivitat de la gràfica mostrada a l'informe sobre els casos per milió de Xarampió a nivell europeu, en aquest repositori de github us deixem el codi R utilitzat juntament amb la gràfica final.
